@@ -2,16 +2,17 @@
 
 Blog App is a simple application where users can create, edit, delete simple blog with image.
 This blog app is created to demonstrate several aspects of full-stack web application development:
-* RESTful application work
-* Manageing MongoDB database hosted by a cloud hosting, mLab
+* Overall flow of RESTful application 
+* Management of MongoDB database hosted by a cloud hosting, mLab
 * Deployment with Heroku
 
 ## Getting Started
 
-* To create a new blog, you can go to *New* Tap in navigation bar
-* To see the detail view of a blog, push the blog
-* To edit the blog, go to the detail view of the blog and push *Edit* button
-* To delete the blog, push *Delete* button in the detail view
+* To create a new blog, you can go to **New** Tap in navigation bar
+* To see the detail view of a blog, click the blog
+* To edit the blog, go to the detail view of the blog and push **Edit** button
+* To delete the blog, push **Delete** button in the detail view
+* To show the list of blogs, push **Home** button in the naviagation bar
 
    [Visit Blog App Here](https://blog-app-kangsik-lee.herokuapp.com/)
 
@@ -46,9 +47,4 @@ This project is licensed under the MIT License
 
 ## Acknowledgments
 
-* Demonstrating building RESTful application
-* Running on a server using Node.js and Express
-* Using MongoDB Database and hosted with mLab
-* Deploying application with Heroku
 * Thanks to Colt Steel
-
