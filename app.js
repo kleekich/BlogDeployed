@@ -6,8 +6,11 @@ var methodOverride = require("method-override");
 var expressSanitizer = require("express-sanitizer");
 
 // App Config - Order important
+mongoose.connect(process.env.DATABASEURL);
 //mongoose.connect("mongodb://localhost/restful_blog_app");
-mongoose.connect("mongodb://kleekich:Yppi@ds127589.mlab.com:27589/blog_app");
+//mongoose.connect("mongodb://kleekich:Yppi@ds127589.mlab.com:27589/blog_app");
+
+
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended:true}));
