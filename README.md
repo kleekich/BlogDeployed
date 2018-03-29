@@ -10,7 +10,7 @@ This blog app is created to demonstrate how RESTful application work.
 * To edit the blog you added, go to the detail view of the blog and push edit button
 * To delete the blog, push delete button in the detail view
 
-   [Visit Blog App Here](https://https://blog-app-kangsik-lee.herokuapp.com/)
+   [Visit Blog App Here](https://blog-app-kangsik-lee.herokuapp.com/)
 
 ## Built and Deployed With
 
